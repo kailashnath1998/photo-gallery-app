@@ -15,7 +15,6 @@
     "connect-busboy": "0.0.2",
     "connect-form": "^0.2.1",
     "cors": "2.7.1",
-    "ejs": "2.4.1",
     "errorhandler": "1.4.3",
     "express": "4.13.4",
     "express-fileupload": "^0.4.0",
