@@ -21,7 +21,8 @@ To get the Node server running locally:
 
 ## Application Structure
 
-- `server.js` - The entry point to our application. This file defines our express server and connects it to MongoDB using mongoose. It also requires the routes and models we'll be using in the application.
+- `server.js` - The entry point to our application. This file defines our express server.
+- `app.js` - This file contains the routes and models we'll be using in the application.
 - `config.js` - This file contains configuration for jwt as well as a central location for configuration/environment variables.
 - `db.js` - This file contains the entry point to DataBase.
 - `public/` - This folder contains the html/js files.
@@ -31,7 +32,7 @@ To get the Node server running locally:
 - `album/` - This folder contains Album Schema and CRUD for albums
 - `photo/` - This folder contains Photo Schema and CRUD for photos
 - `user_data/` - This folder contains avatars of users
-- `RouterConfig.js` - This folder contains the route definitions
+- `RouterConfig.js` - This file contains the route definitions
 
 ## Authentication
 
